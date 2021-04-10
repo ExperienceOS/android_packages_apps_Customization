@@ -77,4 +77,9 @@
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on statusbar</string>
     <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+
+    <!-- Signature Spoofing -->
+    <string name="allow_signature_fake">Allow signature spoofing</string>
+    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app</string>
+
 </resources>
