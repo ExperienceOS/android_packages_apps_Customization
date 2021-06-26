@@ -47,7 +47,7 @@
             android:dependency="fod_recognizing_animation" />
     
     <!-- Fod Icons -->
-    <com.blaster.settings.preferences.FODIconPicker
+    <com.experience.settings.preferences.FODIconPicker
         android:key="fod_icon"
         android:title="@string/fod_icon_picker_title"
         android:layout="@layout/fod_picker_preference"

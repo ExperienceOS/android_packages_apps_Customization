@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blaster.settings.display;
+package com.experience.settings.display;
 
 import android.content.ContentResolver;
 import android.content.Context;

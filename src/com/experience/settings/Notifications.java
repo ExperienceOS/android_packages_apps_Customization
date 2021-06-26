@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.blaster.settings;
+package com.experience.settings;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -43,12 +43,12 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class Miscellaneous extends SettingsPreferenceFragment {
+public class Notifications extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.miscellaneous);
+        addPreferencesFromResource(R.xml.notifications);
         PreferenceScreen prefSet = getPreferenceScreen();
         final Resources res = getResources();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -65,7 +65,7 @@ public class Miscellaneous extends SettingsPreferenceFragment {
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.miscellaneous;
+                    sir.xmlResId = R.xml.notifications;
                     return Arrays.asList(sir);
                 }
 

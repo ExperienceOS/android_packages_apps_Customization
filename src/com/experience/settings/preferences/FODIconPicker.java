@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blaster.settings.preferences;
+package com.experience.settings.preferences;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

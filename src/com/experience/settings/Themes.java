@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blaster.settings;
+package com.experience.settings;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -36,7 +36,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.blaster.settings.display.QsTileStylePreferenceController;
+import com.experience.settings.display.QsTileStylePreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;

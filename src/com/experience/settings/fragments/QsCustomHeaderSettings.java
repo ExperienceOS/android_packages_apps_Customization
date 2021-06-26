@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.blaster.settings.fragments;
+package com.experience.settings.fragments;
 
 import android.app.Activity;
 import android.content.ContentResolver;
