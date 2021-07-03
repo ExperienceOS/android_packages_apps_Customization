@@ -19,15 +19,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/experience_settings_title" >
 
-        <!-- Themes -->
-        <Preference
-            android:key="themes_settings"
-            android:title="@string/themes_title"
-            android:summary="@string/themes_summary"
-            android:fragment="com.experience.settings.Themes"
-	    android:layout="@layout/preference_customization_themes"
-	    />
-
         <!-- Statusbar -->
         <Preference
             android:id="@+id/statusbar"
@@ -52,37 +43,12 @@
 	    android:layout="@layout/preference_customization_buttons"
 	    />
 
-        <!-- Notifications -->
-        <Preference
-            android:key="notifications_settings"
-            android:title="@string/notifications_title"
-            android:fragment="com.experience.settings.Notifications"
-	    android:layout="@layout/preference_customization_notifications"
-	    />
-
-        <!-- Lockscreen -->
-        <Preference
-            android:key="lockscreen_settings"
-            android:title="@string/lockscreen_title"
-            android:fragment="com.experience.settings.Lockscreen"
-	    android:layout="@layout/preference_customization_lockscreen"
-	    />
-
         <!-- Miscellaneous -->
         <Preference
             android:key="miscellaneous_settings"
             android:title="@string/miscellaneous_title"
             android:fragment="com.experience.settings.Miscellaneous"
 	    android:layout="@layout/preference_customization_miscellaneous"
-	    />
-
-        <!-- FOD -->
-        <Preference
-            android:key="fod"
-            android:title="@string/fod_title"
-            android:summary="@string/fod_icon_picker_summary"
-            android:fragment="com.experience.settings.Fod"
-	    android:layout="@layout/preference_experience_fod"
 	    />
 
 </PreferenceScreen>
