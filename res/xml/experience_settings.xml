@@ -24,7 +24,7 @@
             android:id="@+id/statusbar"
             android:title="@string/statusbar_title"
             android:fragment="com.experience.settings.Statusbar"
-            android:layout="@layout/preference_customization_statusbar"
+            android:layout="@layout/preference_customizer_statusbar"
             />
 
         <!-- Quick Settings -->
@@ -32,7 +32,7 @@
             android:id="@+id/quick_settings"
             android:title="@string/quicksettings_title"
             android:fragment="com.experience.settings.QuickSettings"
-            android:layout="@layout/preference_customization_quicksettings"
+            android:layout="@layout/preference_customizer_quicksettings"
             />
 
         <!-- Buttons -->
@@ -40,7 +40,7 @@
             android:key="button_settings"
             android:title="@string/button_settings_title"
             android:fragment="com.experience.settings.ButtonSettings"
-	    android:layout="@layout/preference_customization_buttons"
+	    android:layout="@layout/preference_customizer_buttons"
 	    />
 
         <!-- Miscellaneous -->
@@ -48,7 +48,7 @@
             android:key="miscellaneous_settings"
             android:title="@string/miscellaneous_title"
             android:fragment="com.experience.settings.Miscellaneous"
-	    android:layout="@layout/preference_customization_miscellaneous"
+	    android:layout="@layout/preference_customizer_miscellaneous"
 	    />
 
 </PreferenceScreen>

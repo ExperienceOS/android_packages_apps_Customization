@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class Customization extends SettingsPreferenceFragment { 
+public class Customizer extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
